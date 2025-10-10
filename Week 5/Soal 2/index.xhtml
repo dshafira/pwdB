@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <title>Reservation Form</title>
+</head>
+<body>
+
+<h2>Reservation Hotel Room</h2>
+
+<form action="#" method="post">
+   <fieldset>
+      <legend>Personal Data</legend>
+      <p>1. Name<br />
+      <input type="text" name="name" /></p>
+
+      <p>2. Gender<br />
+      <input type="text" name="gender" /></p>
+
+      <p>3. Email Address<br />
+      <input type="text" name="email" /></p>
+
+      <p>4. Telp Number<br />
+      <input type="text" name="telp" /></p>
+   </fieldset>
+
+   <fieldset>
+      <legend>Reservation Room form</legend>
+      <p>1. Reservation Name<br />
+      <input type="text" name="reservation_name" /></p>
+
+      <p>2. Booking date<br />
+      <input type="text" name="booking_date" /></p>
+
+      <p>3. Room Type<br />
+      <select name="room_type">
+         <option>Deluxe</option>
+         <option>Suite</option>
+         <option>Standard</option>
+      </select></p>
+
+      <p>4. Bed Type<br />
+      <select name="bed_type">
+         <option>Single bed</option>
+         <option>Double bed</option>
+         <option>Twin bed</option>
+      </select></p>
+
+      <p>5. Breakfast<br />
+      <input type="radio" name="breakfast" value="with" /> With Breakfast
+      <input type="radio" name="breakfast" value="without" /> Without Breakfast</p>
+   </fieldset>
+
+   <fieldset>
+      <legend>Payment</legend>
+      <p>1. Check in date<br />
+      <input type="text" name="checkin" /></p>
+
+      <p>2. Check out date<br />
+      <input type="text" name="checkout" /></p>
+
+      <p>3. Payment Method<br />
+      <select name="payment_method">
+         <option>cash</option>
+         <option>credit card</option>
+         <option>transfer</option>
+      </select></p>
+   </fieldset>
+
+   <p><input type="submit" value="submit" /></p>
+</form>
+
+</body>
+</html>
